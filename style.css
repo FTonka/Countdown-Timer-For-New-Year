@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url("./New_Year3.jpg");
+    background-position: center center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    min-height: 100vh;
+    color: black;
+}
+.countdown-c{
+    display: flex;
+    
+}
+.add1{
+    margin:0 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.add1 p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.add1 span{
+    font-weight: bold;
+    font-size: 1rem;
+}
